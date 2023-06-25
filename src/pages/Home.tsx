@@ -43,6 +43,7 @@ const Home: FC = () => {
       });
     });
   };
+  
   return (
     <Panel title="Home">
       <h1 style={{ color: "red", backgroundColor: "blue" }}>Inline Style</h1>

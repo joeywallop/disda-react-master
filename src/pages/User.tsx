@@ -5,6 +5,7 @@ import { RootState } from "../app/store";
 import { Navigate, useNavigate } from "react-router-dom";
 import { TrashIcon, PencilSquareIcon } from "@heroicons/react/24/outline";
 import TextInput from "../component/aui/TextInput";
+
 interface ColProps {
   value: string;
 }

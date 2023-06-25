@@ -16,6 +16,7 @@ const UserForm: FC = () => {
   const toUser = () => {
     navigate("/user");
   };
+  
   const save = async () => {
     try {
       const resp = await fetch(
